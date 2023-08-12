@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Enty point of programme that puts the sizes of computer types in use
  *
