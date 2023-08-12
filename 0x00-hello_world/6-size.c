@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - programme that puts the sizes of computer types in use
+ * main - Enty point of programme that puts the sizes of computer types in use
+ *
  * Return: 0
  */
 int main(void)
