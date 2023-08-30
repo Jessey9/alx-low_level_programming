@@ -6,13 +6,14 @@
  * @accept: input
  * Return: Everytime 0 (Successful)
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-		int x = 0;
+		int x;
 
 		while (*s)
 		{
-			for (; accept[x]; x++)
+			for (x = 0; accept[x]; x++)
 			{
 			if (*s == accept[x])
 			return (s);
